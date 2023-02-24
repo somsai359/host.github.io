@@ -1,4 +1,4 @@
-**Sudoko Game**
+**Sudoku Game**
 
  level-based Sudoku game with different modes and different grid-sizes
 
