@@ -1,4 +1,4 @@
-# host.github.io
+#Sudo Game
 
  level-based Sudoku game with different modes and different grid-sizes
 
