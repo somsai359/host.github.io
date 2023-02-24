@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- mobile status bar color -->
+    <meta name="theme-color" content="#fff">
+    <title>Step-up Sudoku</title>
+    <link rel="shortcut icon" href="data:image/png;base64,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" type="image/x-icon">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <!-- app css -->
+    <link rel="stylesheet" href="./app.css">
+
+        
+    </head>
+    <body>
+        <nav>
+            <div class="nav-container">
+                <a href="index.html" class="nav-logo">
+                    Step-up Sudoku
+                </a>
+                <a href="Instructions.html">Instructions</a>
+                <a href="Feedback.html">Feedback</a>
+                <div class="dark-mode-toggle" id="dark-mode-toggle">
+                    <i class="bx bxs-sun"></i>
+                    <i class="bx bxs-moon"></i>
+                </div>
+            </div>
+        </nav>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+       <center>
+        <div>
+        <a href="https://feed-back-sudoku.herokuapp.com/"><h3>Feedback link</h3></a>
+        </div>
+    </center>
+    </body>
+</html>
